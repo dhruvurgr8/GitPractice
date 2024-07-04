@@ -1,0 +1,47 @@
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.product-card {
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+.product-card .price {
+    font-size: 1.1em;
+    color: #000;
+    margin: 10px 0;
+}
+.delete-btn{
+    background-color: black ;
+    color: white;
+}
