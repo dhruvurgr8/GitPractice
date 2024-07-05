@@ -1,1 +1,1 @@
-removed the content
+added AI and implemented chatGPT for any realtime help
